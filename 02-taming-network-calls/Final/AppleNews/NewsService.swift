@@ -50,7 +50,7 @@ class NewsAPIService: NewsService {
     let articles: [Article]
   }
 
-  static let apiKey = "a9a679fe153444c2adb808c6105cb0c4"
+  static let apiKey = "<ADD_YOUR_KEY_HERE>"
   static let newsURL = URL(string: "https://newsapi.org/v2/everything?q=apple&apiKey=\(apiKey)")!
 
   func latestNews() async throws -> [Article] {
